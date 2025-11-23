@@ -1,0 +1,154 @@
+.nunito-titulo {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 880;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #d20012;
+}
+
+.header-content {
+    max-width: auto;
+    border-bottom: 5px solid red;
+    text-align: center;
+}
+
+.header-logo {
+    margin-right: auto;
+    float: left;
+}
+
+.logo {
+    width: 300px;
+    height: 60px;
+}
+
+.header-text {
+    margin: 10px auto; 
+    font-size: 45px;
+    display: inline-block;
+    padding-left: 20%;
+}
+
+.contenedor-principal {
+    padding: 50px 0px 0px 0px;
+    max-width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.contenedor-cuerpo-izquierda {
+    display: inline-block;
+    width: 20%;
+    padding: 200px 0px;
+    margin-right: 100px;
+    margin-top: auto;
+}
+
+.contenedor-cuerpo-derecha {
+    display: inline-block;
+    vertical-align: top;
+    /* Mantenemos el 70% de ancho total */
+    width: 70%; 
+    text-align: left;
+}
+
+.subcontenedor-formulario-izquierda {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%; 
+    margin-right:10%; 
+}
+
+.subcontenedor-formulario-derecha {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%; 
+}
+
+.field {
+    margin-bottom: 30px;
+}
+
+.asterisco {
+    color: #dc3545;
+}
+
+
+select {
+    border: 2px solid #d20012;
+    background-color: white;
+    border-radius: 4px;
+    color: #5c5c5c;
+    display: block;
+    width: 534px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+select:focus{
+
+    border-color: #d20012;
+    color: #495057;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(244, 67, 54, .25);
+
+}
+
+input {
+    border: 2px solid #d20012;
+    background-color: white;
+    border-radius: 4px;
+    color: #5c5c5c;
+    display: block;
+    width: 510px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input:focus {
+    border-color: #d20012;
+    color: #495057;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(244, 67, 54, .25);
+}
+
+
+.contenedor-boton-final {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+.boton-inscribirme {
+    padding: 15px 30px;
+    background-color: #f44336;
+    color: white;
+    border: 1px solid #f44336;
+    border-radius: 4px;
+    margin-left: 0; 
+}
+
+.boton-inscribirme:hover {
+
+    border-color: #d20012;
+    background-color: white;
+    color: black;
+
+}
+
+.pie-de-pagina {
+    background-color: #435363;
+    color: white;
+    width: auto;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 8%;
+}
